@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/toolbar_bell"
+        android:icon="@drawable/bell"
+        android:title="未读消息"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/toolbar_send_msg"
+        android:icon="@drawable/send_msg"
+        android:title="发消息"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/toolbar_dustbin"
+        android:icon="@drawable/delete"
+        android:title="回收站"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/toolbar_exit"
+        android:icon="@drawable/system_back"
+        android:title="退出"
+        app:showAsAction="never"/>
+</menu>
